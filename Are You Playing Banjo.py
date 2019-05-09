@@ -3,6 +3,6 @@
 
 name = input("Are you playing banjo? enter your name:")
 if(name.lower().startswith("r")):
-    print("plays banjo")
+    print(name + " plays banjo ")
 else:
-    print("does not play banjo")    
+    print(name + " does not play banjo ")    

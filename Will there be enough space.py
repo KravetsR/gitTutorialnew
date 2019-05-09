@@ -1,3 +1,7 @@
-def enough(cap, on, wait):
-    # Your code here
-    return (int( 0 if cap - on - wait >=0 else on + wait - cap))
+number = 2345
+x = 1
+for i in str(number):
+    x *= int(i)
+print(x)    
+print(str(number) [::-1])
+print("".join(sorted(str(number))))

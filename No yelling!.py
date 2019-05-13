@@ -1,6 +1,6 @@
 # def filter_words(st):
 #     a = st.lower()
-#     b = a.upper([0])
+#     b = a.upper()[0] +a[1:]
 #     c = b.split()
 #     return " ".join(c)
 

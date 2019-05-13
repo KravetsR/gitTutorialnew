@@ -20,13 +20,13 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!'''
 
-res_better = Python.find("better")
+res_better = Python.count("better")
 print("better:", res_better )
 
-res_never = Python.find("never")
+res_never = Python.count("never")
 print("never:", res_never)
 
-res_is = Python.find("is")
+res_is = Python.count("is")
 print("is:", res_is)
 
 upper_str = Python.upper()
